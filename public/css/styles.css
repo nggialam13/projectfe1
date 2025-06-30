@@ -1,0 +1,466 @@
+/*-NGUYỄN GIA LÂM | 22211TT3655 | CD22TT7*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+.top-bar a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.promo-banner {
+    background-color: #fbeec1;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 0;
+    margin-bottom: 6px;
+}
+
+.hero {
+    background-color: #f3ede5;
+    padding: 60px 20px;
+    text-align: left;
+}
+
+.hero img {
+    max-height: 500px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.mission {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.mission p {
+    font-size: 20px;
+    font-style: italic;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* bat dau banner*/
+
+.nav-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+
+.nav-btn.left {
+    left: 20px;
+}
+
+.nav-btn.right {
+    right: 20px;
+}
+
+.custom-btn-shopnow {
+    border: 1px solid #000;
+    background: white;
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-shopnow:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+/* end banner*/
+
+
+
+/*RECOMMENDED FOR YOU*/
+video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+.right-box {
+    background-color: #f0f0f0;
+    text-align: center;
+
+   
+  
+}
+
+.product-img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 20px;
+    
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+/*Denim Collection*/
+.stars {
+    color: black;
+}
+
+.container-fluid {
+    display: flex;
+
+}
+
+.container-fluid img {
+    display: block;
+  
+}
+
+.container-fluid video {
+    display: block;
+   
+}
+ .img-fluid {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    object-fit: cover;
+}   
+
+.grid-item {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  /*top trenđiing & loungewear*/
+  .loungewear-text {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: left;
+  }
+
+  .loungewear-text h4 {
+    font-weight: bold;
+    text-align: end;
+  }
+  .loungewear-text p{
+    text-align:right;
+    
+  
+    
+  }
+  .loungewear-text hr {
+    margin-left: 5rem;
+    width: 180px;
+    display: inline-block;
+    border-top: 1px solid #000;
+    vertical-align:middle;
+  }
+
+  .top-trending {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .top-trending img {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  .top-trending .stars {
+    color: #000;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .top-trending .price {
+    font-weight: bold;
+  }
+
+  /*shop men & women*/
+  .shop-image {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shop-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .shop-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+  }
+
+  .shop-button:hover {
+   background-color: #000;
+   color: #f0f0f0;
+    transition: 0.3s ease;
+  }
+   
+  /* From Our Blog*/
+  .blog-section {
+    padding: 60px 0;
+  }
+
+  .blog-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 1.75rem;
+  }
+
+  .blog-card img {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+
+  .blog-card {
+    border: none;
+    background: transparent;
+  }
+
+  .blog-content {
+    background-color: #fafaf3;
+    padding-right: 50px;
+    margin-left: 70px;
+    /* margin-bottom: 50px; */
+    /* padding-bottom: 80px; */
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      background: white;
+      
+      padding: 20px;
+      max-width: 90%;
+/*   
+    border: #000 2px solid; */
+  }
+
+  .blog-content h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .blog-meta {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #0e0c0c;
+  }
+
+  .blog-meta i {
+    margin-right: 5px;
+  }
+
+  .blog-meta .meta-item {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .underline {
+    width: 100px;
+    height: 2px;
+    background: black;
+    margin: 15px 0;
+  }
+
+
+
+  /* underline1*/
+  .underline-1{
+    width: 1400px;
+    height: 2px;
+    background: rgb(241, 237, 237);
+    margin-left: 50px ;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    /* border-bottom: #000 2px solid; */
+    
+  }
+
+
+
+
+  /* FROM OUR CUSTOMERS*/
+
+
+      .testimonial-quote {
+      font-size: 4rem;
+      color: #ccc;
+      line-height: 0.5;
+    }
+
+    .testimonial-stars {
+      color: black;
+      font-size: 1rem;
+    }
+
+    .testimonial-text {
+      font-size: 1.1rem;
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .testimonial-author img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #eee;
+    }
+
+    .testimonial-divider {
+      border-left: 1px solid #ddd;
+    }
+
+    .section-title {
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 60px;
+      font-size: 1.6rem;
+    }
+    /*footer1 */
+    .footer {
+        background-color: #f5f3ed;
+        padding: 50px 0;
+      }
+  
+      .footer .logo {
+        font-size: 28px;
+        font-weight: bold;
+      }
+  
+      .footer p {
+        margin: 0;
+      }
+  
+      .footer .contact-info {
+        font-size: 14px;
+        color: #333;
+      }
+  
+      .footer .contact-info strong {
+        font-weight: bold;
+      }
+  
+      .footer .social-icons i {
+        font-size: 20px;
+        margin-right: 15px;
+        color: #111;
+        
+      }
+      .social-icons{
+        padding-right: 90px;
+      }
+     
+  
+      .footer .social-title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        padding-right: 90px;
+      }
+
+      /*footer 2*/
+      
+      .list li a{
+        font-size: larger;
+        color: black;
+        text-decoration: none;
+        display: inline;
+       
+    }
+    .list li {
+        list-style-type: none;
+    
+    }
+    .list.btn{
+        border-color: crimson;
+    }
+
+    /*end footer*/
+    .footer-bottom {
+        background-color: #f5f3ed;
+        padding: 20px 0;
+        font-size: 14px;
+        border-top: 2px solid #ffffff;
+      }
+      .payment-icons img {
+        height: 30px;
+        margin: 0 5px;
+        background-color: #fff;
+        padding: 4px;
+      }
+      .currency-selector {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    
+      .scroll-top-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 999;
+        border: 1px solid #000;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 38px;
+        color: #000;
+      }
